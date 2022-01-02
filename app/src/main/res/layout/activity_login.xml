@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/busy_maps_logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:src="@drawable/barber_shop"/>
@@ -23,12 +23,29 @@
         android:layout_centerInParent="true">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/client_login"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:elevation="20dp"
             app:cardCornerRadius="20dp"
-            app:cardBackgroundColor="#00BCD4"
+            app:cardBackgroundColor="#00BCD4">
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/owner_login"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/client_login"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#E60242">
+
+
+        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
 
