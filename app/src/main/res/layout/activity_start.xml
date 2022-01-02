@@ -36,12 +36,12 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         app:backgroundTint="#00BCD4"
-        android:text="START"
-        android:textSize="16sp"
+        android:text="LOGIN"
+        android:textSize="15sp"
         android:background="@drawable/custom_button"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="70dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_marginLeft="50dp"/>
 
     <Button
         android:id="@+id/client_button"
@@ -49,12 +49,13 @@
         android:layout_height="70dp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        app:backgroundTint="#00BCD4"
-        android:text="START"
-        android:textSize="16sp"
+        app:backgroundTint="#E60242"
+        android:text="SIGN UP"
+        android:textSize="15sp"
         android:background="@drawable/custom_button"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="70dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"/>
 
 </RelativeLayout>
