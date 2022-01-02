@@ -7,43 +7,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ffffff"
-    tools:context=".SplashScreen">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/busy_maps_logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:src="@drawable/barber_shop"/>
 
-    <Button
-        android:id="@+id/login_button"
-        android:layout_width="120dp"
-        android:layout_height="70dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        app:backgroundTint="#00BCD4"
-        android:text="LOGIN"
-        android:textSize="15sp"
-        android:background="@drawable/custom_button"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
-        android:layout_marginLeft="50dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
-    <Button
-        android:id="@+id/signup_button"
-        android:layout_width="120dp"
-        android:layout_height="70dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        app:backgroundTint="#E60242"
-        android:text="SIGN UP"
-        android:textSize="15sp"
-        android:background="@drawable/custom_button"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="50dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#00BCD4"
+
+    </RelativeLayout>
+
 
 </RelativeLayout>

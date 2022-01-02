@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ffffff"
-    tools:context=".SplashScreen">
+    tools:context=".StartActivity">
 
     <ImageView
         android:id="@+id/busy_maps_logo"
