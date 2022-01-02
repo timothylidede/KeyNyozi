@@ -30,7 +30,7 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/business_button"
+        android:id="@+id/login_button"
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:textStyle="bold"
@@ -44,7 +44,7 @@
         android:layout_marginLeft="50dp"/>
 
     <Button
-        android:id="@+id/client_button"
+        android:id="@+id/signup_button"
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:textStyle="bold"
