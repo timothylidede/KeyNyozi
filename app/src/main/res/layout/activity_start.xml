@@ -6,30 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F44C36"
+    android:background="#ffffff"
     tools:context=".SplashScreen">
 
     <ImageView
         android:id="@+id/busy_maps_logo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_baseline_emoji_transportation_24"/>
+        android:src="@drawable/barber_shop"/>
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Busy Maps"
+        android:text="KEYNYOZI"
         android:textSize="22sp"
-        android:fontFamily="monospace"
+        android:fontFamily="sans-serif-medium"
         android:layout_below="@+id/busy_maps_logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/start_button"
+        android:id="@+id/business_button"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#00BCD4"
+        android:text="START"
+        android:textSize="16sp"
+        android:background="@drawable/custom_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/client_button"
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:textStyle="bold"
